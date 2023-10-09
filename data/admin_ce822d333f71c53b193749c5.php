@@ -1,0 +1,1 @@
+<?php $admin_path = 'e63jav'; ?>

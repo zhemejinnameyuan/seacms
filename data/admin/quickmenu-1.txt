@@ -1,0 +1,5 @@
+﻿添加影片,admin_video.php?action=add
+管理影片,admin_video.php?action=else
+非凡综合资源,admin_reslib.php?ac=list&rid=&url=http://cj.ffzyapi.com/api.php/provide/vod/at/xml/
+非凡M3U8资源,admin_reslib.php?ac=list&rid=&url=http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/
+非凡云资源,admin_reslib.php?ac=list&rid=&url=http://cj.ffzyapi.com/api.php/provide/vod/from/feifan/at/xml/
