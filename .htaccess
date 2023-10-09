@@ -1,0 +1,21 @@
+RewriteEngine on
+#ÍøÕ¾¶þ¼¶Ä¿Â¼
+RewriteBase /
+#channel
+RewriteRule frim/index(.+?).html$ list/\?$1.html 
+#content
+RewriteRule movie/index(.+?).html$ detail/\?$1.html
+#play
+RewriteRule play/(.+?).html$ video/\?$1.html
+#topic
+RewriteRule topic/index(.*?).html$ topic/\?$1.html 
+#topiclist
+RewriteRule topiclist/(.+?).html$ topiclist/\?$1.html 
+#index
+RewriteRule index.html$ index.php 
+#newsindex
+RewriteRule news.html$ news/ 
+#articlelist
+RewriteRule html/part/index(.+?).html$ articlelist/\?$1.html 
+#article
+RewriteRule html/article/index(.+?).html$ article/\?$1.html
